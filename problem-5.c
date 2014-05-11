@@ -5,6 +5,8 @@
 
 const int MAXBUF = 1024;
 
+
+//Pipes console input from the parent process into the console output of a child process.
 int main (int argC, char* argV[]){
 	int filedes[2];
 	pid_t childPID;

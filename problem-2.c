@@ -7,6 +7,7 @@
 
 extern int errno;
 
+//Copies a file using forked processes
 int main (int argC, char* argV[]){
 	pid_t parentID;
 	size_t readSize;
